@@ -121,6 +121,16 @@
   <data name="TopPanelContainer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="NewNodeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 9</value>
+  </data>
+  <data name="NewNodeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="NewNodeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;NewNodeButton.Name" xml:space="preserve">
     <value>NewNodeButton</value>
   </data>
@@ -132,6 +142,15 @@
   </data>
   <data name="&gt;&gt;NewNodeButton.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="SettingsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="SettingsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="SettingsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;SettingsButton.Name" xml:space="preserve">
     <value>SettingsButton</value>
@@ -149,7 +168,6 @@
   <data name="TopPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="TopPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -211,149 +229,47 @@
   <data name="&gt;&gt;TopPanelContainer.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="NewNodeButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAAaFJREFUSEvFlv1tgzAUxD1CR+gojJARMgIbwAZlg3QT8iXlT7pBRmCE9l5yfWms
-        s8ElEif9RIXv3sMuJg5z1If+DVSHcOhO4TQcw3HE9dvg372NwbNhZJmsIYo2fxtNAe8V1wbZd5YpEwrU
-        JQ1j7AHAluXmCYEPVew/WC2WzQvGnSqwhHM471he65UzjUnOHANbFVAw4lIeBXrUjNxlbyBu2tsoAzGM
-        uZQnwWg7hbFbsIkMWRhzKU8K7PeWsdsyz56twZhLeTLcZ42mGzGYhf1cyjNBFfgZVINJ2M+lPDmsp4X6
-        eGAK9nMpzwSDheRnkTUXS9UGY/JpmVssVdtYtfFqSz1ENydhTZfy5MAW3q+6nap4YAr2cylPDvto/R5v
-        ik4a7OdSnhT4bb4yFmy5W2VKwZhLeTI8fiRKZ82YS3kUNttLuDwfArHutTIrGHEpjwI99OEPg8VveAEd
-        22jhqT5FaBFWk+XzgvmVM8/PNJb9P+xlEIXmMiL/fLibK3sDUaAtfADbHe0QhsehbomwAnZE6nDds7g3
-        wr0vGwPVvIYh/AAjIepqjRWN/wAAAABJRU5ErkJggg==
-</value>
+  <data name="CurrentFolderLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="NewNodeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 9</value>
+  <data name="CurrentFolderLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
   </data>
-  <data name="NewNodeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
+  <data name="CurrentFolderLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
   </data>
-  <data name="NewNodeButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="CurrentFolderLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 37</value>
+  </data>
+  <data name="CurrentFolderLable.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;NewNodeButton.Name" xml:space="preserve">
-    <value>NewNodeButton</value>
+  <data name="CurrentFolderLable.Text" xml:space="preserve">
+    <value>/12345678</value>
   </data>
-  <data name="&gt;&gt;NewNodeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;CurrentFolderLable.Name" xml:space="preserve">
+    <value>CurrentFolderLable</value>
   </data>
-  <data name="&gt;&gt;NewNodeButton.Parent" xml:space="preserve">
-    <value>TopPanel</value>
+  <data name="&gt;&gt;CurrentFolderLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NewNodeButton.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;CurrentFolderLable.Parent" xml:space="preserve">
+    <value>PanelCurrentFolder</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="SettingsButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAAe9JREFUSEu1V1txwzAQFIRCCIRACIRAMIQwSCCEQcogZqA8J58ug5aBIbS7npPG
-        lk8PO+7O7Eyse+zpdXbMVNzMrQK/ybu5/5JXcz2K+f9AESfo+DCPk5jfgzX2A1zJ4wAQsqEw2Ih5BOaS
-        n2nQkYm4lE/zXMuwB2xtT9CxFbMHC8e4ZZ7YJDycaC8huRfbBsv8Gdg8IXCiD33xewf6AkU8PnM4acvI
-        QG2WKhO+jSousy0WmEMUtRW5IWDYaQEL8SAyOuBwDgKWYFqUkCXXgucyetUG4D4owQPC58JtEUZPeo/d
-        aU8CTurJFvLwjZK8zGuF7uVbqEI7OtHSArmvbBrJUw17JWEjUBw+uXjabdfbQ2OC2b3S+niMxcJdlRlg
-        Rtnz4UjnH80QskQY+7jRYjUWC4NW8kcxaakh3F0J8IKBXMuMXgvMdoUcsZPdwvYF1tRCgeOGkqqaiSkg
-        rh7SdMK3mqcqFAKO2X1CAXwFbkk87/E8e6U8pPpcoklkTkmvI7dkb/AsEjq4hErQIkTu6Lu4+PLPZBtd
-        chhjJ7p0z3ltamWcTDcgBPZfcy3eOjsZ3wa2kMfGNN2M8PsQ2Io/BBp+pLtEfcCmzl7MHiiywjh986Il
-        QEKtxY6+qwmt8NmAyKR/EosBIkfOOmAt5kIY8wfiYEmB2+0rmAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="SettingsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="SettingsButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 30</value>
-  </data>
-  <data name="SettingsButton.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;SettingsButton.Name" xml:space="preserve">
-    <value>SettingsButton</value>
-  </data>
-  <data name="&gt;&gt;SettingsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SettingsButton.Parent" xml:space="preserve">
-    <value>TopPanel</value>
-  </data>
-  <data name="&gt;&gt;SettingsButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.Name" xml:space="preserve">
-    <value>ProjectPanel</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.Parent" xml:space="preserve">
-    <value>ProjectPanelContainer</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ProjectPanelContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="ProjectPanelContainer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 57</value>
-  </data>
-  <data name="ProjectPanelContainer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 10, 0</value>
-  </data>
-  <data name="ProjectPanelContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 616</value>
-  </data>
-  <data name="ProjectPanelContainer.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanelContainer.Name" xml:space="preserve">
-    <value>ProjectPanelContainer</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanelContainer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanelContainer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanelContainer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;PanelCurrentFolderContainer.Name" xml:space="preserve">
-    <value>PanelCurrentFolderContainer</value>
-  </data>
-  <data name="&gt;&gt;PanelCurrentFolderContainer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PanelCurrentFolderContainer.Parent" xml:space="preserve">
-    <value>ProjectPanel</value>
-  </data>
-  <data name="&gt;&gt;PanelCurrentFolderContainer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ProjectPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="PanelCurrentFolder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="ProjectPanel.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="PanelCurrentFolder.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="ProjectPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 616</value>
+  <data name="PanelCurrentFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 43</value>
   </data>
-  <data name="ProjectPanel.TabIndex" type="System.Int32, mscorlib">
+  <data name="PanelCurrentFolder.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.Name" xml:space="preserve">
-    <value>ProjectPanel</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.Parent" xml:space="preserve">
-    <value>ProjectPanelContainer</value>
-  </data>
-  <data name="&gt;&gt;ProjectPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;PanelCurrentFolder.Name" xml:space="preserve">
     <value>PanelCurrentFolder</value>
@@ -394,70 +310,55 @@
   <data name="&gt;&gt;PanelCurrentFolderContainer.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;CurrentFolderLable.Name" xml:space="preserve">
-    <value>CurrentFolderLable</value>
-  </data>
-  <data name="&gt;&gt;CurrentFolderLable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CurrentFolderLable.Parent" xml:space="preserve">
-    <value>PanelCurrentFolder</value>
-  </data>
-  <data name="&gt;&gt;CurrentFolderLable.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="PanelCurrentFolder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="ProjectPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="PanelCurrentFolder.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="ProjectPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="PanelCurrentFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 43</value>
+  <data name="ProjectPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 616</value>
   </data>
-  <data name="PanelCurrentFolder.TabIndex" type="System.Int32, mscorlib">
+  <data name="ProjectPanel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;PanelCurrentFolder.Name" xml:space="preserve">
-    <value>PanelCurrentFolder</value>
+  <data name="&gt;&gt;ProjectPanel.Name" xml:space="preserve">
+    <value>ProjectPanel</value>
   </data>
-  <data name="&gt;&gt;PanelCurrentFolder.Type" xml:space="preserve">
+  <data name="&gt;&gt;ProjectPanel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;PanelCurrentFolder.Parent" xml:space="preserve">
-    <value>PanelCurrentFolderContainer</value>
+  <data name="&gt;&gt;ProjectPanel.Parent" xml:space="preserve">
+    <value>ProjectPanelContainer</value>
   </data>
-  <data name="&gt;&gt;PanelCurrentFolder.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;ProjectPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="CurrentFolderLable.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="ProjectPanelContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="CurrentFolderLable.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 16pt</value>
+  <data name="ProjectPanelContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 57</value>
   </data>
-  <data name="CurrentFolderLable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 0</value>
+  <data name="ProjectPanelContainer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
   </data>
-  <data name="CurrentFolderLable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 37</value>
+  <data name="ProjectPanelContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 616</value>
   </data>
-  <data name="CurrentFolderLable.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="ProjectPanelContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="CurrentFolderLable.Text" xml:space="preserve">
-    <value>/12345678</value>
+  <data name="&gt;&gt;ProjectPanelContainer.Name" xml:space="preserve">
+    <value>ProjectPanelContainer</value>
   </data>
-  <data name="&gt;&gt;CurrentFolderLable.Name" xml:space="preserve">
-    <value>CurrentFolderLable</value>
+  <data name="&gt;&gt;ProjectPanelContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CurrentFolderLable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ProjectPanelContainer.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;CurrentFolderLable.Parent" xml:space="preserve">
-    <value>PanelCurrentFolder</value>
-  </data>
-  <data name="&gt;&gt;CurrentFolderLable.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;ProjectPanelContainer.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="DropListTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

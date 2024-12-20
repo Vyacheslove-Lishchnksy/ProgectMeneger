@@ -68,16 +68,18 @@ namespace WinFormsApp1
             // 
             // NewNodeButton
             // 
-            resources.ApplyResources(NewNodeButton, "NewNodeButton");
+            NewNodeButton.BackgroundImage = Resources._new;
             NewNodeButton.Cursor = Cursors.Hand;
+            resources.ApplyResources(NewNodeButton, "NewNodeButton");
             NewNodeButton.Name = "NewNodeButton";
             NewNodeButton.Click += NewProjectButton_Click;
             // 
             // SettingsButton
             // 
-            resources.ApplyResources(SettingsButton, "SettingsButton");
+            SettingsButton.BackgroundImage = Resources.sattinng;
             SettingsButton.Cursor = Cursors.Hand;
             SettingsButton.ForeColor = SystemColors.ActiveCaptionText;
+            resources.ApplyResources(SettingsButton, "SettingsButton");
             SettingsButton.Name = "SettingsButton";
             SettingsButton.Click += SettingsButton_Click;
             // 

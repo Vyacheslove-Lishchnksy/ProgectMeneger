@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TopPanelContainer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.Name" xml:space="preserve">
+    <value>NewNodeButton</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.Parent" xml:space="preserve">
+    <value>TopPanel</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Name" xml:space="preserve">
+    <value>SettingsButton</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Parent" xml:space="preserve">
+    <value>TopPanel</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TopPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TopPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TopPanel.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="TopPanel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="TopPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1256, 52</value>
+  </data>
+  <data name="TopPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.Name" xml:space="preserve">
+    <value>TopPanel</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.Parent" xml:space="preserve">
+    <value>TopPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;TopPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TopPanelContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TopPanelContainer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TopPanelContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TopPanelContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TopPanelContainer.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 57</value>
+  </data>
+  <data name="TopPanelContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1256, 57</value>
+  </data>
+  <data name="TopPanelContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TopPanelContainer.Name" xml:space="preserve">
+    <value>TopPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;TopPanelContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TopPanelContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TopPanelContainer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NewNodeButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAaFJREFUSEvFlv1tgzAUxD1CR+gojJARMgIbwAZlg3QT8iXlT7pBRmCE9l5yfWms
+        s8ElEif9RIXv3sMuJg5z1If+DVSHcOhO4TQcw3HE9dvg372NwbNhZJmsIYo2fxtNAe8V1wbZd5YpEwrU
+        JQ1j7AHAluXmCYEPVew/WC2WzQvGnSqwhHM471he65UzjUnOHANbFVAw4lIeBXrUjNxlbyBu2tsoAzGM
+        uZQnwWg7hbFbsIkMWRhzKU8K7PeWsdsyz56twZhLeTLcZ42mGzGYhf1cyjNBFfgZVINJ2M+lPDmsp4X6
+        eGAK9nMpzwSDheRnkTUXS9UGY/JpmVssVdtYtfFqSz1ENydhTZfy5MAW3q+6nap4YAr2cylPDvto/R5v
+        ik4a7OdSnhT4bb4yFmy5W2VKwZhLeTI8fiRKZ82YS3kUNttLuDwfArHutTIrGHEpjwI99OEPg8VveAEd
+        22jhqT5FaBFWk+XzgvmVM8/PNJb9P+xlEIXmMiL/fLibK3sDUaAtfADbHe0QhsehbomwAnZE6nDds7g3
+        wr0vGwPVvIYh/AAjIepqjRWN/wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="NewNodeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 9</value>
+  </data>
+  <data name="NewNodeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="NewNodeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.Name" xml:space="preserve">
+    <value>NewNodeButton</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.Parent" xml:space="preserve">
+    <value>TopPanel</value>
+  </data>
+  <data name="&gt;&gt;NewNodeButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SettingsButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAAe9JREFUSEu1V1txwzAQFIRCCIRACIRAMIQwSCCEQcogZqA8J58ug5aBIbS7npPG
+        lk8PO+7O7Eyse+zpdXbMVNzMrQK/ybu5/5JXcz2K+f9AESfo+DCPk5jfgzX2A1zJ4wAQsqEw2Ih5BOaS
+        n2nQkYm4lE/zXMuwB2xtT9CxFbMHC8e4ZZ7YJDycaC8huRfbBsv8Gdg8IXCiD33xewf6AkU8PnM4acvI
+        QG2WKhO+jSousy0WmEMUtRW5IWDYaQEL8SAyOuBwDgKWYFqUkCXXgucyetUG4D4owQPC58JtEUZPeo/d
+        aU8CTurJFvLwjZK8zGuF7uVbqEI7OtHSArmvbBrJUw17JWEjUBw+uXjabdfbQ2OC2b3S+niMxcJdlRlg
+        Rtnz4UjnH80QskQY+7jRYjUWC4NW8kcxaakh3F0J8IKBXMuMXgvMdoUcsZPdwvYF1tRCgeOGkqqaiSkg
+        rh7SdMK3mqcqFAKO2X1CAXwFbkk87/E8e6U8pPpcoklkTkmvI7dkb/AsEjq4hErQIkTu6Lu4+PLPZBtd
+        chhjJ7p0z3ltamWcTDcgBPZfcy3eOjsZ3wa2kMfGNN2M8PsQ2Io/BBp+pLtEfcCmzl7MHiiywjh986Il
+        QEKtxY6+qwmt8NmAyKR/EosBIkfOOmAt5kIY8wfiYEmB2+0rmAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="SettingsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="SettingsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="SettingsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Name" xml:space="preserve">
+    <value>SettingsButton</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.Parent" xml:space="preserve">
+    <value>TopPanel</value>
+  </data>
+  <data name="&gt;&gt;SettingsButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.Name" xml:space="preserve">
+    <value>ProjectPanel</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.Parent" xml:space="preserve">
+    <value>ProjectPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ProjectPanelContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ProjectPanelContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 57</value>
+  </data>
+  <data name="ProjectPanelContainer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 10, 0</value>
+  </data>
+  <data name="ProjectPanelContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 616</value>
+  </data>
+  <data name="ProjectPanelContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanelContainer.Name" xml:space="preserve">
+    <value>ProjectPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanelContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanelContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanelContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.Name" xml:space="preserve">
+    <value>PanelCurrentFolderContainer</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.Parent" xml:space="preserve">
+    <value>ProjectPanel</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ProjectPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ProjectPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ProjectPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 616</value>
+  </data>
+  <data name="ProjectPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.Name" xml:space="preserve">
+    <value>ProjectPanel</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.Parent" xml:space="preserve">
+    <value>ProjectPanelContainer</value>
+  </data>
+  <data name="&gt;&gt;ProjectPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.Name" xml:space="preserve">
+    <value>PanelCurrentFolder</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.Parent" xml:space="preserve">
+    <value>PanelCurrentFolderContainer</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PanelCurrentFolderContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="PanelCurrentFolderContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PanelCurrentFolderContainer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 5</value>
+  </data>
+  <data name="PanelCurrentFolderContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 48</value>
+  </data>
+  <data name="PanelCurrentFolderContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.Name" xml:space="preserve">
+    <value>PanelCurrentFolderContainer</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.Parent" xml:space="preserve">
+    <value>ProjectPanel</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolderContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.Name" xml:space="preserve">
+    <value>CurrentFolderLable</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.Parent" xml:space="preserve">
+    <value>PanelCurrentFolder</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PanelCurrentFolder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="PanelCurrentFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PanelCurrentFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 43</value>
+  </data>
+  <data name="PanelCurrentFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.Name" xml:space="preserve">
+    <value>PanelCurrentFolder</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.Parent" xml:space="preserve">
+    <value>PanelCurrentFolderContainer</value>
+  </data>
+  <data name="&gt;&gt;PanelCurrentFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CurrentFolderLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentFolderLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="CurrentFolderLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
+  </data>
+  <data name="CurrentFolderLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 37</value>
+  </data>
+  <data name="CurrentFolderLable.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CurrentFolderLable.Text" xml:space="preserve">
+    <value>/12345678</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.Name" xml:space="preserve">
+    <value>CurrentFolderLable</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.Parent" xml:space="preserve">
+    <value>PanelCurrentFolder</value>
+  </data>
+  <data name="&gt;&gt;CurrentFolderLable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="DropListTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1262, 673</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;DropListTimer.Name" xml:space="preserve">
+    <value>DropListTimer</value>
+  </data>
+  <data name="&gt;&gt;DropListTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

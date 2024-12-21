@@ -21,7 +21,5 @@ namespace ProjectMeneger.BisnessLogic.Templates
         {
             Paths.Add(path);
         }
-
-
     }
 }

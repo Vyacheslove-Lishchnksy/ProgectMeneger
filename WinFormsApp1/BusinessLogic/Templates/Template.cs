@@ -9,7 +9,7 @@ namespace ProjectMeneger.BisnessLogic.Templates
     public class Template : ITemplate
     {
         public string Name { get; }
-        private IList<string> Paths { get; }
+        private IList<string> Paths;
 
         public Template(string templateName, IList<string> template)
         {
@@ -19,7 +19,17 @@ namespace ProjectMeneger.BisnessLogic.Templates
 
         public void AddPath(string path)
         {
-            Paths.Add(path);
+            Paths = new List<string>(Paths) { path };
+        }
+
+        public IList<string> GetPaths()
+        {
+            return new List<string>(Paths);
+        }
+
+        public void NewPaths(IList<string> paths)
+        {
+            Paths = new List<string>(paths);
         }
     }
 }

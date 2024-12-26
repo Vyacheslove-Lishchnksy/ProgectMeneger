@@ -12,5 +12,8 @@ namespace ProjectMeneger.BisnessLogic.Templates
 
         public void AddPath(string path);
 
+        public IList<string> GetPaths();
+
+        public void NewPaths(IList<string> paths);
     }
 }
